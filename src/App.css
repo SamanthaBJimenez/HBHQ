@@ -36,3 +36,197 @@
     transform: rotate(360deg);
   }
 } */
+
+
+/* Navbar.js */
+
+.nav {
+  background-color: rgb(255,255,255,.4);
+}
+
+.nav-link {
+  color: black;
+  z-index: 2;
+  font-family: Vogue;
+}
+
+.nav-link:hover {
+  color: darkolivegreen;
+}
+
+.active-nav {
+  color: black;
+  z-index: 2;
+  font-family: Vogue;
+  display: block;
+  transition: 0s;
+  font-weight: bold;
+}
+
+.active-nav:hover {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+/* Landing.js */
+
+.landing-main {
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+
+.backdrop {
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden;
+  filter: brightness(0.3);
+}
+
+.contact-icons {
+  border-left: 5px solid black;
+  height: 25%;
+  border-radius: 2px;
+  position: fixed;
+  top: 65px;
+  right: 43px;
+  z-index: 10;
+}
+
+.first-link {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  right: -13px;
+  top: 108%;
+}
+
+.second-link {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  right: -13px;
+  top: 124%;
+}
+
+.third-link {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  right: -13px;
+  top: 139%;
+}
+
+.fourth-link {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  right: -13px;
+  top: 155%;
+}
+
+.bx:hover {
+  color: darkslategray;
+  filter: brightness(0.55);
+}
+
+.brand-name {
+  font-family: Vogue;
+  padding: auto;
+  position: absolute;
+  text-align: center;
+  top: -64vh;
+  font-size: 600%;
+  /* color: darkgrey; */
+  left: 31vw;
+}
+
+/* About.js */
+
+.about-main {
+  height: 70vh;
+  background-color: #043322;
+  color: white;
+  padding: 15% 28%;  
+  box-shadow: 0px 1px 20px #141414, 0px -1px 20px #141414;  
+  position: relative;
+  top: 100vh;
+}
+
+.about-card {
+  background-color: rgb(255,255,255,.4);
+  border-radius: 5px;
+  width: 50vw;
+  margin: auto;
+  padding: 5px 15px;
+}
+
+/* Podcast.js */
+
+.podcast-main {
+  height: 100vh;
+  background-color: seagreen;
+  top: 150vh;
+  position: relative;
+}
+
+
+/* Youtube.js */
+
+.youtube-main {
+  height: 85vh;
+  background-color: #043322;
+  color: white;
+  padding: 9%;
+  box-shadow: 0px 1px 20px #141414, 0px -1px 20px #141414;
+  position: relative;
+  top: 210vh;
+}
+
+.youtube-container {
+  height: 64vh;
+  grid-template-columns: 300px 300px 300px;
+  display: grid;
+  overflow: hidden;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.youtube-clip {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+/* Contact.js */
+
+.contact-main {
+  height: 80vh;
+  /* background-color: teal; */
+  /* padding-top: 5%; */
+  display: flex;
+  position: relative;
+  top: 223vh;
+  justify-content: center;
+}
+
+.contact-container {
+  position: absolute;
+  z-index: 3;
+  background-color: rgb(225, 225, 225, .6);
+  padding: 70px 100px;
+  border-radius: 5px;
+  margin: 75px;
+}
+
+.contact-header {
+  font-family: Vogue;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  font-size: xxx-large;
+}
+
+.text-area {
+  height: 20vh !important;
+}
