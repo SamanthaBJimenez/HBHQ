@@ -5,7 +5,7 @@ import About from './Components/About';
 import Podcast from './Components/Podcast';
 import Youtube from './Components/Youtube';
 import Contact from './Components/Contact';
-import { Link, Element, animateScroll as scroller } from 'react-scroll';
+import { Element, animateScroll as scroller } from 'react-scroll';
 import './App.css';
 import './css/boxicons/css/boxicons.css'
 import './css/boxicons/css/boxicons.min.css'
